@@ -1,18 +1,27 @@
 # WFplanningPDFGen
 
-## Installation d'un serveur virtuel 
+## Prérequis
+
+- Python
+
+## Développement sur le projet
+
+Initialiser Un repository git 
 ```python
-pip install virtualenv
+Git init
+Git remote add Wf
+git pull wf main
 ```
-## Création du serveur virtuel
-ici, notre serveur se nomme "env"
+
+Installer le virtual environnement Python
 ```python
 py -m venv env  
-```
-## Activation du serveur
-```python
 .\env\Scripts\activate
+py install -r requirements.txt
 ```
+
+En cas d'ajout de dépendances, executer le bat pour recréer requirements.txt 
+
 
 
 
